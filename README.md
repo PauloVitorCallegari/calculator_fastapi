@@ -21,8 +21,8 @@ pip install fastapi uvicorn
 ```
 ## Como Executar
 1. Clone este repositório:
-  git clone https://github.com/PauloVitorCallegariDalvi/calculadora-fastapi.git
-  cd calculadora-python
+  git clone https://github.com/PauloVitorCallegariDalvi/calculator_fastapi.git
+  cd calculadora-fastapi
 2. Execute o servidor FastAPI:
   uvicorn main:app --reload
 3. Acesse:
