@@ -21,7 +21,7 @@ pip install fastapi uvicorn
 ```
 ## Como Executar
 1. Clone este repositório:
-  git clone https://github.com/seu-usuario/calculadora-python.git
+  git clone https://github.com/PauloVitorCallegariDalvi/calculadora-fastapi.git
   cd calculadora-python
 2. Execute o servidor FastAPI:
   uvicorn main:app --reload
@@ -31,10 +31,10 @@ pip install fastapi uvicorn
 ### Testando as Operações
 Você pode testar as operações matemáticas enviando requisições para as seguintes rotas:
 
-POST /calculator/add: Soma dois números.
-POST /calculator/subtract: Subtrai dois números.
-POST /calculator/multiply: Multiplica dois números.
-POST /calculator/divide: Divide dois números.
+- POST /calculator/add: Soma dois números.
+- POST /calculator/subtract: Subtrai dois números.
+- POST /calculator/multiply: Multiplica dois números.
+- POST /calculator/divide: Divide dois números.
 ### Exemplo de Requisição
 Envie um JSON com os valores value1 e value2 no corpo da requisição. Exemplo:
 ```
